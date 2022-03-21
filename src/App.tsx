@@ -1,13 +1,15 @@
 import React from 'react';
-import Card from "./app/components/Card";
-import Icon from "./app/components/Icon";
+import Components from "./app/components/videos/3-components/Components";
+import Conditionals from "./app/components/videos/4-conditional_rendering/Conditionals";
+import Looping from "./app/components/videos/5-looping/Looping";
 
-function App() {
-  return <div>
-    <Card icon={<Icon/>}>
-      Body of the card
-    </Card>
-  </div>;
+const App:React.FC = () => {
+
+  return <>
+    <Components/>
+    <Conditionals/>
+    <Looping/>
+  </>;
 }
 
 export default App;

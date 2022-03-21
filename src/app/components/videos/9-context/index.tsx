@@ -5,7 +5,7 @@ const ContextAPI: React.FC = () => {
     /**
      * Notice how this log is not shown!
      * Passing a setState action function through context
-     * will only affect the components that use the function
+     *  will only affect the components that use the function! :O
      */
 
     console.log("Deep Component Rendering")

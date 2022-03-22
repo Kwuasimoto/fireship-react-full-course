@@ -1,3 +1,7 @@
+/**
+ * [010] React Error Boundaries
+ */
+
 import React from 'react';
 import ErrorBoundaryClassComponent from "./ErrorBoundaryClassComponent";
 import ErrorBoundaryFunctionComponent from "./ErrorBoundaryFunctionComponent";

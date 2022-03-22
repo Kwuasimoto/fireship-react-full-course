@@ -9,26 +9,38 @@ import DeepComponentProvider from "./app/components/videos/9-context/DeepCompone
 import ContextAPI from "./app/components/videos/9-context";
 import ErrorBoundaries from "./app/components/videos/10-error_boundaries";
 import ErrorBoundaryFunctionComponentProvider
-  from "./app/components/videos/10-error_boundaries/ErrorBoundaryFunctionComponentProvider";
+    from "./app/components/videos/10-error_boundaries/ErrorBoundaryFunctionComponentProvider";
 import Animation from "./app/components/videos/12-animation";
+import ReactRouter from "./app/components/videos/13-react_router";
 
-const App:React.FC = () => {
+const App: React.FC = () => {
 
-  return <>
-    <Components/>
-    <Conditionals/>
-    <Looping/>
-    <Events/>
-    <State/>
-    <LifeCycles/>
-    <DeepComponentProvider>
-      <ContextAPI/>
-    </DeepComponentProvider>
-    <ErrorBoundaryFunctionComponentProvider>
-      <ErrorBoundaries/>
-    </ErrorBoundaryFunctionComponentProvider>
-    <Animation/>
-  </>;
+    return <>
+        {/*-o-*/}
+        <Components/>
+        {/*-o-*/}
+        <Conditionals/>
+        {/*-o-*/}
+        <Looping/>
+        {/*-o-*/}
+        <Events/>
+        {/*-o-*/}
+        <State/>
+        {/*-o-*/}
+        <LifeCycles/>
+        {/*-o-*/}
+        <DeepComponentProvider>
+            <ContextAPI/>
+        </DeepComponentProvider>
+        {/*-o-*/}
+        <ErrorBoundaryFunctionComponentProvider>
+            <ErrorBoundaries/>
+        </ErrorBoundaryFunctionComponentProvider>
+        {/*-o-*/}
+        <Animation/>
+        {/*-o-*/}
+        <ReactRouter/>
+    </>;
 }
 
 export default App;

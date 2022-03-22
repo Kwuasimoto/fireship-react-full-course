@@ -7,6 +7,9 @@ import State from "./app/components/videos/7-state";
 import LifeCycles from "./app/components/videos/8-lifecycles";
 import DeepComponentProvider from "./app/components/videos/9-context/DeepComponentProvider";
 import ContextAPI from "./app/components/videos/9-context";
+import ErrorBoundaries from "./app/components/videos/10-error_boundaries";
+import ErrorBoundaryFunctionComponentProvider
+  from "./app/components/videos/10-error_boundaries/ErrorBoundaryFunctionComponentProvider";
 
 const App:React.FC = () => {
 
@@ -20,6 +23,9 @@ const App:React.FC = () => {
     <DeepComponentProvider>
       <ContextAPI/>
     </DeepComponentProvider>
+    <ErrorBoundaryFunctionComponentProvider>
+      <ErrorBoundaries/>
+    </ErrorBoundaryFunctionComponentProvider>
   </>;
 }
 

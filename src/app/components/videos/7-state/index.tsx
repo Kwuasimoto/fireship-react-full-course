@@ -1,5 +1,5 @@
 /**
- * [008] React Component Life Cycles
+ * [007] React Component State
  */
 
 import React from 'react';

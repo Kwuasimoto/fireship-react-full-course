@@ -1,3 +1,7 @@
+/**
+ * [008] React Component Life Cycles
+ */
+
 import React from 'react';
 import Counter from "./Counter";
 

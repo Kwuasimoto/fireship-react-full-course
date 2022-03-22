@@ -10,6 +10,7 @@ import ContextAPI from "./app/components/videos/9-context";
 import ErrorBoundaries from "./app/components/videos/10-error_boundaries";
 import ErrorBoundaryFunctionComponentProvider
   from "./app/components/videos/10-error_boundaries/ErrorBoundaryFunctionComponentProvider";
+import Animation from "./app/components/videos/12-animation";
 
 const App:React.FC = () => {
 
@@ -26,6 +27,7 @@ const App:React.FC = () => {
     <ErrorBoundaryFunctionComponentProvider>
       <ErrorBoundaries/>
     </ErrorBoundaryFunctionComponentProvider>
+    <Animation/>
   </>;
 }
 

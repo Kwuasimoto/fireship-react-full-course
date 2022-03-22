@@ -1,3 +1,7 @@
+/**
+ * [006] Event Driven Components
+ */
+
 import React from 'react';
 import Input from "./Input";
 

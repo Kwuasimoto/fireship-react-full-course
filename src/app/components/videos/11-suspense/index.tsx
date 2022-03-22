@@ -1,7 +1,10 @@
+/**
+ * [011] Suspense
+ */
 import React from 'react';
 
 /**
- * Suspense is a experimental react 18 video
+ * Suspense is an experimental React 18 video
  * Jeff says work in progress!
  * @constructor
  */

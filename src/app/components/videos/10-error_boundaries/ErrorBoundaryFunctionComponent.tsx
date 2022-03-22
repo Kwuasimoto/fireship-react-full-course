@@ -1,6 +1,6 @@
 /**
  * TEST
- * This requires context with state to check if an error exists.
+ * This requires context with/or state to check if an error exists.
  */
 import React from 'react';
 import {ErrorBoundaryFunctionComponentContext} from "./ErrorBoundaryFunctionComponentProvider";

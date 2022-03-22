@@ -1,3 +1,7 @@
+/**
+ * [003] Render Components Dynamically
+ */
+
 import React from 'react';
 import Card from "./Card";
 import Icon from "./Icon";

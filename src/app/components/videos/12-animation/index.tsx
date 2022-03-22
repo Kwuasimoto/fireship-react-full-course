@@ -1,3 +1,7 @@
+/**
+ * [012] Animation w/ Framer
+ */
+
 import React from 'react';
 import Framer from "./Framer";
 
